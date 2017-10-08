@@ -155,7 +155,7 @@ function moveDodgerLeft() {
    * (mabye 4 pixels?). Use window.requestAnimationFrame()!
    */
    var left = parseInt(dodger.style.left, 10);
-   dodger.style.left = `${left -= 4}px`;
+   dodger.style.left = `${left - 4}px`;
    window.requestAnimationFrame(moveDodgerLeft);
 }
 
