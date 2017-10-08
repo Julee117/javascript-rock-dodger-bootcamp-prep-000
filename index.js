@@ -87,7 +87,7 @@ function createRock(x) {
      if (checkCollision(rock)) {
        return endGame();
      }
-     if (top == GAME_HEIGHT) {
+     if (top ==+ GAME_HEIGHT) {
        rock.remove();
      } else {
        window.requestAnimationFrame(moveRock);
@@ -120,6 +120,7 @@ function createRock(x) {
  * Finally, alert "YOU LOSE!" to the player.
  */
 function endGame() {
+
 }
 
 function moveDodger(e) {
